@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1.2" package="com.watchface.otte_24h" version="1.0.1">
+    <watch-application ambient-support="true" appid="com.watchface.otte_24h" exec="com.watchface.otte_24h">
+        <metadata key="http://developer.samsung.com/tizen/metadata/watchface" value="true"/>
+        <icon>otte_24h.png</icon>
+        <label>otte_24h</label>
+    </watch-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
+        <privilege>http://tizen.org/privilege/packagemanager.info</privilege>
+        <privilege>http://tizen.org/privilege/alarm.set</privilege>
+    </privileges>
+    <feature name="http://tizen.org/feature/screen.shape.circle">true</feature>
+    <feature name="http://tizen.org/feature/screen.size.normal.360.360">true</feature>
+</manifest>
